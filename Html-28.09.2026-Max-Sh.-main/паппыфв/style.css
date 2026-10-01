@@ -3,6 +3,9 @@
     padding: 0%;
 }
 
+button{
+    cursor: pointer;
+}
 .header{
     width: 100%;
     height: 132px;
@@ -341,6 +344,7 @@
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    border-bottom: 1px solid #393E46;
 }
 
 .text_blockP4{
@@ -395,7 +399,9 @@ input.finputP4 {
     border-radius: 16px;
     border: none;   
     background-color: #373C44;
+    padding-left: 12px;
 }
+
 
 input.sinputP4 {
     width: 288px;
@@ -404,16 +410,18 @@ input.sinputP4 {
     background-color: #373C44;
     border-radius: 16px;
     border: none; 
+    padding-left: 12px;
 }
 
 input.tinputP4 {
     width: 616px;
-    height: 400px;
+    height: 57px;
     border-radius: 16px;
     background-color: #373C44;
     border-radius: 16px;
-    border: none; 
-
+    border: none;
+    padding-bottom: 343px;
+    padding-left: 10px;
 }
 
 .fsendbot4 p{ 
@@ -442,6 +450,7 @@ input.tinputP4 {
     font-weight: bold;
     color: white;
     gap: 10px;
+    font-size: 15px;
 }
 
 ::placeholder{
@@ -450,3 +459,62 @@ input.tinputP4 {
     left: 12px;
     top: 21px;
 }
+
+.bottom_body{
+    width: 1920px;
+    height: 277px;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_nav {
+    width: 475px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 38px;
+}
+
+.bottom_nav li {
+    display: flex;
+    width: 475px;
+    justify-content: center;
+    font-size: 24px;
+    gap: 48px;
+    color: #eeeeee;
+}
+
+.social {
+    width: 264px;
+    height: 48px;
+    display: flex;
+    gap: 24px;
+}
+
+.social button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    background-color: #373C44;
+}
+
+.creators{
+    width: 1920px;
+    height: 127px;
+    background-color: #222831;
+}
+
+.creators_move{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 1872px;
+    height: 96px;
+    font-size: 18px;
+    color: #eeeeee;
+}   
